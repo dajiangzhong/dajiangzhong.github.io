@@ -1,3 +1,4 @@
 theme: jekyll-theme-hacker
 title: River Zhong
-description: Low-level systems & kernel engineering
+description: Low-Level systems & kernel engineering
+show_downloads: false
