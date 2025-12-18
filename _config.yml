@@ -1,4 +1,58 @@
-theme: jekyll-theme-hacker
-title: River Zhong
-description: Low-Level systems & kernel engineering
-show_downloads: false
+# Site
+title: "River Zhong"
+description: "Low-level systems, Linux kernel, GPU, RTOS, RISC-V"
+url: "https://dajiangzhong.github.io"
+baseurl: ""
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Plugins (GitHub Pages compatible)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Appearance
+minimal_mistakes_skin: "dark"
+
+# Author (used by theme)
+author:
+  name: "River Zhong"
+  bio: "Kernel / GPU / RTOS engineer"
+  location: "Japan"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/dajiangzhong"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      toc: true
+      toc_sticky: true
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Linux Kernel"
+    url: /linux-kernel/
+  - title: "GPU"
+    url: /gpu/
+  - title: "RTOS"
+    url: /rtos/
+  - title: "RISC-V"
+    url: /risc-v/
+
+# Markdown
+markdown: kramdown
+highlighter: rouge

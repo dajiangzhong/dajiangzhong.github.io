@@ -1,26 +1,11 @@
 ---
-layout: default
-title: Home
+layout: home
+author_profile: false
 ---
 
-## Welcome
+Welcome to my technical blog.
 
-This is my personal technical blog.
+I focus on **Linux kernel internals**, **GPU drivers**, **RTOS design**,  
+and **RISC-V architecture**.
 
-Topics:
-- Linux kernel
-- GPU
-- AI 
-- RTOS
-- RISC-V
-
-## Posts
-
-<ul>
-{% for post in site.posts %}
-  <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <small>({{ post.date | date: "%Y-%m-%d" }})</small>
-  </li>
-{% endfor %}
-</ul>
+Below are recent articles.
