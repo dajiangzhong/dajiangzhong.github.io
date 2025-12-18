@@ -1,9 +1,10 @@
 
 ---
+layout: post
 title: first post test
 date: 2025/12/18
 categories: [blog]
-tags: [github, jekyll]
+tags: [github,jekyll]
 ---
 ## why blogging
 
