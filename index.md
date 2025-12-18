@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Welcome
+## Welcome
 
 This is my personal technical blog.
 
@@ -13,3 +13,14 @@ Topics:
 - AI 
 - RTOS
 - RISC-V
+
+## Posts
+
+<ul>
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <small>({{ post.date | date: "%Y-%m-%d" }})</small>
+  </li>
+{% endfor %}
+</ul>
