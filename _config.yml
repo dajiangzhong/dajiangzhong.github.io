@@ -44,6 +44,8 @@ defaults:
 navigation:
   - title: "Home"
     url: /
+  - title: "Categories"
+    url: /categories/
   - title: "Linux Kernel"
     url: /linux-kernel/
   - title: "GPU"
